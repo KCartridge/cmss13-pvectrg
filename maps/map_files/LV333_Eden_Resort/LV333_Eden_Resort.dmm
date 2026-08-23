@@ -1,4 +1,25 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ah" = (
+/obj/structure/machinery/shower{
+	dir = 8
+	},
+/obj/structure/barricade/metal{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 7
+	},
+/obj/structure/barricade/metal{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 20
+	},
+/obj/item/reagent_container/food/snacks/grown/orange{
+	pixel_x = 7;
+	pixel_y = -7
+	},
+/obj/structure/curtain/shower,
+/turf/open/floor/plating/plating_catwalk,
+/area/space)
 "an" = (
 /obj/structure/bed/chair/wood/normal,
 /turf/open/floor/strata/fake_wood,
@@ -18,6 +39,9 @@
 /area/space)
 "aw" = (
 /turf/open/gm/coast/east,
+/area/space)
+"ay" = (
+/turf/closed/wall/wood,
 /area/space)
 "aK" = (
 /obj/structure/surface/table/reinforced/black,
@@ -144,6 +168,17 @@
 	},
 /turf/open/floor/kutjevo/colors/cyan/edge/west,
 /area/space)
+"bZ" = (
+/obj/structure/mirror{
+	pixel_y = 35;
+	pixel_x = -1
+	},
+/obj/structure/sink{
+	pixel_y = 24;
+	layer = 3.1
+	},
+/turf/open/floor/almayer/dark_sterile,
+/area/space)
 "cb" = (
 /obj/structure/surface/table/reinforced,
 /obj/structure/machinery/chem_dispenser/soda{
@@ -209,6 +244,14 @@
 	icon_state = "road_edge_decal4"
 	},
 /turf/open/asphalt,
+/area/space)
+"dd" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/turf/open/gm/dirtgrassborder/grassdirt_corner/north_west,
 /area/space)
 "df" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -549,6 +592,9 @@
 "iS" = (
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"iX" = (
+/turf/open/floor/carpet5_1/west,
+/area/space)
 "iZ" = (
 /turf/open/floor/kutjevo/colors/cyan/edge,
 /area/space)
@@ -737,6 +783,10 @@
 	},
 /turf/open/floor/asteroidfloor/north,
 /area/space)
+"lz" = (
+/obj/structure/window/framed/wood,
+/turf/open/floor/asteroid,
+/area/space)
 "lB" = (
 /obj/structure/machinery/landinglight/ds2/delayone{
 	dir = 4
@@ -747,11 +797,19 @@
 /obj/structure/machinery/fuelcell_recycler/full,
 /turf/open/floor/prison,
 /area/space)
+"lO" = (
+/obj/structure/stairs/perspective/kutjevo,
+/turf/open/gm/grass,
+/area/space)
 "lQ" = (
 /obj/vehicle/multitile/van{
 	dir = 8
 	},
 /turf/open/asphalt,
+/area/space)
+"lX" = (
+/obj/structure/platform_decoration/kutjevo/smooth,
+/turf/open/gm/grass,
 /area/space)
 "mf" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -779,8 +837,14 @@
 /obj/structure/curtain/medical,
 /turf/open/floor/kutjevo/colors/cyan/inner_corner,
 /area/space)
+"mH" = (
+/turf/open/floor/carpet13_5,
+/area/space)
 "mN" = (
 /turf/open/floor/prison/kitchen,
+/area/space)
+"mZ" = (
+/turf/open/floor/carpet14_10/west,
 /area/space)
 "ne" = (
 /obj/structure/machinery/landinglight/ds2/delayone{
@@ -865,6 +929,28 @@
 "on" = (
 /turf/open/floor/asteroidfloor/north,
 /area/space)
+"or" = (
+/obj/structure/surface/rack{
+	pixel_y = 19
+	},
+/obj/item/reagent_container/glass/rag/polishing_rag{
+	pixel_x = 7;
+	pixel_y = 23;
+	name = "towel"
+	},
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/obj/item/toy/bikehorn/rubberducky{
+	pixel_x = -4;
+	pixel_y = 34
+	},
+/obj/item/storage/pill_bottle/paracetamol{
+	pixel_x = -3;
+	pixel_y = 17
+	},
+/turf/open/floor/almayer/dark_sterile,
+/area/space)
 "os" = (
 /obj/effect/overlay/palmtree_r,
 /turf/open/gm/dirt/desert0,
@@ -888,6 +974,12 @@
 	},
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /turf/open/gm/dirt,
+/area/space)
+"pj" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 8
+	},
+/turf/open/gm/grass,
 /area/space)
 "pw" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -946,6 +1038,12 @@
 	pixel_y = 0
 	},
 /turf/closed/wall/r_wall/bunker,
+/area/space)
+"qF" = (
+/obj/structure/machinery/cm_vending/sorted/medical/wall_med{
+	pixel_y = 25
+	},
+/turf/open/floor/strata/fake_wood,
 /area/space)
 "qK" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -1079,6 +1177,12 @@
 	pixel_x = 0
 	},
 /turf/open/asphalt/cement_sunbleached/cement_sunbleached15,
+/area/space)
+"tp" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 4
+	},
+/turf/open/gm/grass,
 /area/space)
 "ts" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1271,6 +1375,12 @@
 	},
 /turf/open/gm/dirt,
 /area/space)
+"vv" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning"
+	},
+/turf/open/floor/almayer/dark_sterile,
+/area/space)
 "vD" = (
 /obj/structure/desertdam/decals/road_edge{
 	pixel_x = -19
@@ -1281,6 +1391,13 @@
 	pixel_y = 19
 	},
 /turf/open/asphalt/cement_sunbleached/cement_sunbleached2,
+/area/space)
+"vP" = (
+/obj/structure/platform/kutjevo/smooth{
+	climb_delay = 1;
+	layer = 2.99
+	},
+/turf/open/gm/grass,
 /area/space)
 "vQ" = (
 /obj/structure/machinery/cm_vending/sorted/boozeomat,
@@ -1324,6 +1441,18 @@
 /area/space)
 "wJ" = (
 /turf/open/asphalt/cement_sunbleached/cement_sunbleached4,
+/area/space)
+"wL" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth/stair_plate{
+	pixel_x = 0;
+	pixel_y = -9
+	},
+/turf/open/gm/grass,
 /area/space)
 "wY" = (
 /turf/open/gm/dirtgrassborder/east,
@@ -1510,6 +1639,9 @@
 	},
 /turf/open/floor/asteroidfloor/north,
 /area/space)
+"zx" = (
+/turf/open/floor/carpet6_2/west,
+/area/space)
 "zz" = (
 /turf/open/gm/coast/beachcorner2/north_west,
 /area/space)
@@ -1535,6 +1667,16 @@
 	pixel_y = 9
 	},
 /turf/open/floor/asteroidfloor/north,
+/area/space)
+"AA" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/machinery/computer/cameras/wooden_tv/prop{
+	dir = 1;
+	layer = 3.2;
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/turf/open/floor/strata/fake_wood,
 /area/space)
 "AC" = (
 /turf/open/gm/dirtgrassborder/south,
@@ -1637,6 +1779,13 @@
 	},
 /turf/open/asphalt/cement_sunbleached/cement_sunbleached9,
 /area/space)
+"BQ" = (
+/obj/structure/surface/table/almayer,
+/obj/structure/bedsheetbin{
+	pixel_y = 6
+	},
+/turf/open/floor/strata/fake_wood,
+/area/space)
 "BR" = (
 /obj/structure/machinery/vending/ingredients{
 	pixel_x = 0;
@@ -1698,6 +1847,12 @@
 "Da" = (
 /turf/open/asphalt/cement_sunbleached/cement_sunbleached16,
 /area/space)
+"Df" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/turf/open/floor/strata/fake_wood,
+/area/space)
 "Dj" = (
 /obj/structure/platform_decoration/kutjevo,
 /turf/open/gm/dirt,
@@ -1733,6 +1888,16 @@
 	icon_state = "p_stair_full"
 	},
 /turf/open/gm/dirt,
+/area/space)
+"DG" = (
+/obj/structure/stairs/perspective/kutjevo{
+	dir = 4
+	},
+/turf/open/gm/dirtgrassborder/west,
+/area/space)
+"DM" = (
+/obj/structure/platform_decoration/kutjevo,
+/turf/open/auto_turf/sand_white/layer1,
 /area/space)
 "DP" = (
 /obj/structure/platform/kutjevo/smooth{
@@ -1774,6 +1939,31 @@
 	layer = 2.99
 	},
 /turf/open/gm/dirt2,
+/area/space)
+"Et" = (
+/obj/structure/bed{
+	can_buckle = 0
+	},
+/obj/structure/bed{
+	buckling_y = 13;
+	layer = 3.5;
+	pixel_y = 13
+	},
+/obj/item/bedsheet/brown{
+	layer = 3.4
+	},
+/obj/item/bedsheet/brown{
+	pixel_y = 13
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/barricade/metal{
+	dir = 8;
+	pixel_x = -5;
+	pixel_y = 0
+	},
+/turf/open/floor/strata/fake_wood,
 /area/space)
 "EC" = (
 /obj/structure/cargo_container/horizontal/blue/bottom,
@@ -1825,6 +2015,14 @@
 	dir = 4
 	},
 /turf/open/gm/river/ocean/deep_ocean,
+/area/space)
+"Gb" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 4;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/turf/open/gm/grass,
 /area/space)
 "Ge" = (
 /obj/structure/flora/grass/tallgrass/ice/corner{
@@ -1928,6 +2126,10 @@
 	},
 /turf/open/gm/river/ocean/deep_ocean,
 /area/space)
+"Iq" = (
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/strata/fake_wood,
+/area/space)
 "It" = (
 /turf/open/floor/strata/fake_wood,
 /area/space)
@@ -1990,6 +2192,14 @@
 "JH" = (
 /turf/open/floor/corsat/marked,
 /area/space)
+"JP" = (
+/obj/structure/flora/bush/ausbushes/var3/leafybush,
+/obj/structure/platform/kutjevo/smooth{
+	climb_delay = 1;
+	layer = 2.99
+	},
+/turf/open/gm/grass,
+/area/space)
 "JS" = (
 /obj/structure/machinery/vending/cola{
 	pixel_x = 0;
@@ -2013,6 +2223,29 @@
 /area/space)
 "Ki" = (
 /turf/open/gm/dirt/desert2,
+/area/space)
+"Kk" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 4
+	},
+/turf/open/gm/dirtgrassborder/west,
+/area/space)
+"KB" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 1;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/obj/structure/platform/kutjevo/smooth/stair_plate{
+	pixel_x = 5;
+	pixel_y = -9
+	},
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/turf/open/gm/grass,
 /area/space)
 "KF" = (
 /obj/structure/sign/safety/reception,
@@ -2087,6 +2320,9 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"MC" = (
+/turf/open/floor/carpet9_4/west,
+/area/space)
 "MF" = (
 /obj/structure/machinery/door_control/brbutton/alt{
 	id = "exit_w_1"
@@ -2126,6 +2362,11 @@
 	pixel_y = 9;
 	pixel_x = -3
 	},
+/obj/structure/machinery/microwave{
+	density = 0;
+	pixel_y = 9;
+	pixel_x = -3
+	},
 /turf/open/floor/prison/sterile_white,
 /area/space)
 "Na" = (
@@ -2148,6 +2389,9 @@
 /area/space)
 "NP" = (
 /turf/closed/wall/r_wall/unmeltable,
+/area/space)
+"Of" = (
+/turf/open/floor/carpet10_8/west,
 /area/space)
 "Og" = (
 /turf/closed/wall/rock,
@@ -2234,6 +2478,10 @@
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /turf/open/auto_turf/sand_white/layer1,
 /area/space)
+"QB" = (
+/obj/structure/stairs/perspective/kutjevo,
+/turf/open/gm/dirt2,
+/area/space)
 "QM" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal4"
@@ -2263,6 +2511,36 @@
 	pixel_y = -1
 	},
 /turf/open/floor/kutjevo,
+/area/space)
+"Rf" = (
+/obj/structure/surface/table/reinforced/toc,
+/obj/item/storage/box/donkpockets{
+	pixel_x = -6;
+	pixel_y = 14
+	},
+/obj/structure/vehicle_locker/cabinet/cups{
+	pixel_y = 27;
+	pixel_x = -8
+	},
+/obj/structure/vehicle_locker/cabinet/utensils/flip{
+	pixel_x = 8;
+	pixel_y = 27
+	},
+/obj/item/reagent_container/food/condiment/saltshaker{
+	pixel_x = 5;
+	pixel_y = 9
+	},
+/obj/item/reagent_container/food/condiment/peppermill{
+	pixel_y = 13;
+	pixel_x = 10
+	},
+/turf/open/floor/strata/fake_wood,
+/area/space)
+"Rh" = (
+/obj/structure/platform_decoration/kutjevo/smooth{
+	dir = 4
+	},
+/turf/open/gm/dirtgrassborder/grassdirt_corner2/north_west,
 /area/space)
 "Rk" = (
 /obj/structure/cargo_container/ferret/mid,
@@ -2589,6 +2867,19 @@
 	},
 /turf/open/gm/river/beach_water,
 /area/space)
+"Wt" = (
+/obj/structure/surface/table/reinforced/toc/east,
+/obj/structure/machinery/microwave{
+	density = 0;
+	pixel_y = 14;
+	pixel_x = 0
+	},
+/obj/item/reagent_container/food/snacks/microwavable/donkpocket{
+	pixel_x = -1;
+	pixel_y = 22
+	},
+/turf/open/floor/strata/fake_wood,
+/area/space)
 "Ww" = (
 /obj/structure/bed{
 	pixel_x = 0;
@@ -2599,6 +2890,16 @@
 	pixel_y = 0
 	},
 /turf/open/floor/kutjevo/colors/cyan/inner_corner,
+/area/space)
+"WP" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/space)
+"WR" = (
+/obj/structure/surface/table/almayer,
+/turf/open/floor/strata/fake_wood,
 /area/space)
 "WZ" = (
 /obj/structure/cargo_container/kelland/left,
@@ -2623,6 +2924,9 @@
 /obj/structure/closet/crate/trashcart,
 /turf/open/floor/asteroidfloor/north,
 /area/space)
+"Xy" = (
+/turf/open/floor/almayer/test_floor4,
+/area/space)
 "Xz" = (
 /turf/open/gm/river/desert,
 /area/space)
@@ -2631,6 +2935,14 @@
 /area/space)
 "XI" = (
 /turf/closed/wall/r_wall/bunker,
+/area/space)
+"XN" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/desk_bell{
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/turf/open/floor/prison/sterile_white,
 /area/space)
 "XT" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -2726,6 +3038,12 @@
 /obj/structure/platform_decoration,
 /turf/open/gm/river/ocean/deep_ocean,
 /area/space)
+"Yy" = (
+/obj/structure/bed/chair{
+	dir = 8
+	},
+/turf/open/floor/strata/fake_wood,
+/area/space)
 "YJ" = (
 /turf/open/gm/dirtgrassborder/north,
 /area/space)
@@ -2768,6 +3086,14 @@
 	},
 /turf/open/gm/river/ocean/deep_ocean,
 /area/space)
+"Zh" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/turf/open/gm/grass,
+/area/space)
 "Zj" = (
 /obj/structure/machinery/landinglight/ds2/delayone{
 	dir = 1
@@ -2776,6 +3102,14 @@
 /area/space)
 "Zy" = (
 /turf/open/floor/plating/icefloor,
+/area/space)
+"ZI" = (
+/obj/structure/platform/kutjevo/smooth{
+	dir = 8;
+	climb_delay = 1;
+	layer = 2.99
+	},
+/turf/open/gm/dirtgrassborder/west,
 /area/space)
 "ZK" = (
 /turf/open/gm/grass,
@@ -2917,7 +3251,7 @@ kr
 kr
 kr
 kr
-kr
+It
 kr
 et
 wY
@@ -3019,7 +3353,7 @@ kr
 kr
 kr
 kr
-kr
+It
 kr
 AC
 ZK
@@ -3121,7 +3455,7 @@ kr
 kr
 kr
 kr
-kr
+It
 kr
 ss
 IZ
@@ -3535,7 +3869,7 @@ Og
 Og
 Og
 Og
-ZK
+Og
 ZK
 ja
 ZK
@@ -3733,10 +4067,10 @@ ZK
 ZK
 ZK
 ZK
-ja
 ZK
 ZK
-nf
+ZK
+ZK
 ZK
 ZK
 ZK
@@ -3839,9 +4173,9 @@ ZK
 ZK
 ZK
 ZK
-zD
 ZK
-Up
+ZK
+ZK
 ZK
 ZK
 ZK
@@ -3935,23 +4269,23 @@ ZK
 ZK
 ZK
 ZK
-zD
+ZK
+ZK
+ZK
+ZK
+lX
+Gb
+Gb
+Gb
+pj
 ZK
 ZK
 ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+tE
+cC
 ZK
 ZK
 tE
@@ -4036,25 +4370,25 @@ GD
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ja
-ZK
-ZK
-ZK
-ZK
-ja
+ay
+ay
+ay
+ay
+ay
+ay
+Iq
+It
+It
+ay
+ay
 ZK
 Sg
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+tE
+IZ
+yu
+ss
+cC
 ja
 YJ
 qK
@@ -4137,26 +4471,26 @@ vi
 GD
 ZK
 ZK
-ZK
-ja
-ZK
-Sg
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+ay
+ay
+WP
+ay
+BQ
+WR
+ay
+ay
+It
+It
+It
+wL
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
+YJ
+iS
+Ns
+Ki
+AC
 ZK
 YJ
 Ge
@@ -4239,26 +4573,26 @@ vi
 GD
 ZK
 ZK
+ay
+or
+vv
+Xy
+It
+It
+It
+ay
+It
+It
+It
+wL
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-Up
-ZK
-nf
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+tE
+yu
+Ns
+yQ
+Ns
+AC
 ZK
 JU
 wY
@@ -4341,28 +4675,28 @@ vi
 GD
 ZK
 ZK
+ay
+bZ
+ah
+ay
+It
+It
+It
+ay
+It
+It
+It
+wL
 ZK
 ZK
-ZK
-ZK
-ja
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+YJ
+Ns
+Ns
+Tn
+qj
+AC
 tE
 cC
-ZK
 ZK
 ZK
 ja
@@ -4442,29 +4776,29 @@ XI
 vi
 GD
 ZK
-zD
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ja
-ZK
-nf
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-zD
-ZK
+ay
+ay
+ay
+ay
+qF
+It
+It
+Xy
+It
+It
+It
+lO
 ZK
 ZK
 JU
+wY
+rw
+Ns
+Ns
+AC
+JU
 uQ
-ZK
 ZK
 ZK
 ZK
@@ -4545,26 +4879,26 @@ vi
 GD
 ZK
 ZK
+ay
+Rf
+It
+It
+It
+Df
+Df
+ay
+It
+It
+It
+wL
 ZK
 ZK
-ja
+nf
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-zD
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+JU
+wY
+wY
+eL
 ZK
 ZK
 ZK
@@ -4647,22 +4981,22 @@ vi
 GD
 ZK
 ZK
+ay
+Wt
+It
+It
+It
+WR
+AA
+ay
+It
+It
+It
+wL
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+zD
 ZK
 ZK
 ZK
@@ -4749,18 +5083,18 @@ vi
 GD
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-Up
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+lz
+It
+It
+zx
+iX
+Yy
+Yy
+ay
+It
+It
+It
+wL
 ZK
 ZK
 ZK
@@ -4851,20 +5185,20 @@ vi
 GD
 ZK
 ZK
+lz
+It
+It
+mZ
+mH
+It
+It
+lz
+It
+It
+It
+wL
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-tE
-cC
-ZK
+ja
 ZK
 ZK
 ZK
@@ -4953,20 +5287,20 @@ vi
 GD
 ZK
 ZK
+ay
+It
+It
+Of
+MC
+It
+It
+lz
+It
+It
+It
+wL
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-tE
-IZ
-yu
-ss
-cC
 ZK
 ZK
 ZK
@@ -5055,21 +5389,21 @@ vi
 GD
 ZK
 ZK
+ay
+Et
+It
+It
+It
+It
+Et
+ay
+It
+It
+It
+wL
+ZK
 ZK
 Up
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-YJ
-iS
-Ns
-Ki
-AC
-ZK
 ZK
 ZK
 YJ
@@ -5156,21 +5490,21 @@ ts
 vi
 GD
 ZK
+lX
+ay
+ay
+It
+Et
+Et
+It
+ay
+ay
+It
+It
+It
+wL
 ZK
 ZK
-ZK
-ZK
-ZK
-zD
-ZK
-ZK
-ZK
-tE
-yu
-Ns
-yQ
-Ns
-AC
 ZK
 ZK
 ZK
@@ -5258,23 +5592,23 @@ ts
 vi
 GD
 ZK
-zD
+JP
+It
+ay
+ay
+ay
+ay
+ay
+ay
+It
+It
+It
+ay
+ay
 ZK
+ja
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-YJ
-Ns
-Ns
-Tn
-qj
-AC
-ZK
-ZK
+nf
 ZK
 ZK
 ZK
@@ -5360,21 +5694,21 @@ ts
 vi
 GD
 ZK
+vP
+It
+It
+It
+It
+It
+It
+It
+It
+It
+It
+It
+wL
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-JU
-wY
-rw
-Ns
-Ns
-AC
 ZK
 ZK
 ZK
@@ -5462,23 +5796,23 @@ ts
 vi
 GD
 ZK
+vP
+It
+It
+It
+It
+It
+It
+It
+It
+It
+It
+KB
+tp
 ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-JU
-wY
-wY
-eL
-ZK
-zD
 ZK
 ZK
 ZK
@@ -5565,19 +5899,19 @@ vi
 Og
 Og
 Og
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-tE
-IZ
+ay
+It
+It
+It
+It
+It
+It
+ay
+It
+KB
+Kk
 IZ
 cC
-ZK
-ZK
-ZK
 ZK
 ZK
 ZK
@@ -5667,20 +6001,20 @@ vi
 Og
 Og
 Og
-ZK
-ZK
-ZK
-tE
-IZ
-IZ
-yu
+ay
+Zh
+Zh
+dd
+DG
+ZI
+ZI
+ay
+ZI
+Rh
 To
 Ve
 ss
 cC
-ZK
-ZK
-ZK
 ZK
 ZK
 ZK
@@ -5774,15 +6108,15 @@ tE
 IZ
 yu
 Ns
+Ns
+Ns
+Ns
 To
 Ss
 va
 va
 Ve
 ss
-IZ
-IZ
-IZ
 IZ
 cC
 ZK
@@ -5875,15 +6209,15 @@ Og
 YJ
 Ns
 Ns
+iS
+Ns
+Ns
 Ns
 Ge
 va
 va
 hl
 uP
-Ns
-Ns
-Ns
 Ns
 Ns
 ss
@@ -5978,12 +6312,12 @@ YJ
 Ns
 Ns
 Ns
+iS
+Ns
+Ns
 Ns
 Ge
 uP
-Ns
-Ns
-Ns
 Ns
 Ns
 Ns
@@ -6079,7 +6413,7 @@ Og
 YJ
 Ns
 Ns
-Ns
+iS
 Ns
 Ns
 Ns
@@ -6284,8 +6618,8 @@ YJ
 et
 rw
 Ns
-Ns
-Ns
+iS
+iS
 Ns
 Ns
 Ns
@@ -6591,7 +6925,7 @@ ss
 IZ
 yu
 Ns
-Ns
+iS
 Ns
 Ns
 Ns
@@ -6794,7 +7128,7 @@ Ns
 Ns
 Ns
 Ns
-Ns
+iS
 Ns
 Ns
 Ns
@@ -7498,7 +7832,7 @@ OE
 OE
 mi
 ov
-ts
+QB
 vi
 Ns
 Ns
@@ -7600,7 +7934,7 @@ OE
 OE
 mi
 ov
-ts
+QB
 vi
 Ns
 iS
@@ -8747,7 +9081,7 @@ Ns
 Ns
 Ns
 Ns
-Ns
+iS
 Ns
 Ns
 ls
@@ -8847,9 +9181,9 @@ Ns
 Ns
 Ns
 Ns
+iS
 Ns
-Ns
-Ns
+iS
 Ns
 Ns
 ls
@@ -8861,7 +9195,7 @@ mN
 mN
 mN
 wf
-bI
+XN
 HE
 It
 It
@@ -8949,7 +9283,7 @@ Ns
 Ns
 Ns
 Ns
-Ns
+iS
 Ns
 Ns
 Ns
@@ -9052,9 +9386,9 @@ Ns
 Ns
 Ns
 Ns
+iS
 Ns
-Ns
-Ns
+iS
 Ns
 rV
 rV
@@ -9154,7 +9488,7 @@ Ns
 Ns
 Ns
 Ns
-Ns
+iS
 Ns
 Ns
 Ns
@@ -9255,10 +9589,10 @@ AZ
 Ns
 Ns
 Ns
+iS
 Ns
 Ns
-Ns
-Ns
+iS
 Ns
 Ns
 Sf
@@ -9357,10 +9691,10 @@ uP
 Ns
 Dj
 Os
+iS
 Ns
 Ns
-Ns
-Dj
+DM
 Os
 Ns
 rV
@@ -10399,9 +10733,9 @@ It
 It
 It
 rV
-Fg
-Fg
-Fg
+on
+on
+on
 Fg
 Fg
 Fg
