@@ -1,9 +1,9 @@
 {
+    "override_map": true,
     "map_name": "USS Tethers End",
     "map_path": "map_files/uss_tethers_end",
     "map_file": "uss_tethers_end.dmm",
     "webmap_url": "GoldenArrow",
     "traits": [{"Marine Main Ship": true}],
-    "nightmare_path": "maps/Nightmare/maps/uss_tethers_end/",
     "platoon": "/datum/squad/marine/alpha"
 }
