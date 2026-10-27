@@ -5963,6 +5963,16 @@
 	},
 /turf/open/floor/almayer/test_floor4,
 /area/golden_arrow/supply)
+"atu" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/structure/machinery/alarm/almayer{
+	dir = 1
+	},
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/gloves,
+/turf/open/floor/almayer,
+/area/golden_arrow/lower_cargo)
 "atv" = (
 /obj/structure/machinery/iv_drip{
 	pixel_y = 6
@@ -9692,10 +9702,6 @@
 /turf/open/floor/almayer,
 /area/golden_arrow/hangar)
 "aFv" = (
-/obj/structure/machinery/door/poddoor/almayer/locked{
-	name = "\improper Hangar Lockdown Blast Door";
-	dir = 4
-	},
 /obj/structure/roof/cargocrane_tracks/horizontal{
 	pixel_y = 14
 	},
@@ -9704,6 +9710,10 @@
 	},
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
+	},
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	name = "\improper Hangar Lockdown Blast Door";
+	dir = 4
 	},
 /turf/open/floor/almayer/test_floor4,
 /area/golden_arrow/lower_cargo)
@@ -11982,7 +11992,8 @@
 /obj/structure/machinery/microwave{
 	density = 0;
 	pixel_y = 4;
-	pixel_x = 2
+	pixel_x = 2;
+	desc = "a spare microwave stolen from the Heart of Darkness, they weren't using it anyway."
 	},
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/microwave{
@@ -16942,6 +16953,16 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/engineering)
+"gjc" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/helmet,
+/turf/open/floor/almayer,
+/area/golden_arrow/lower_cargo)
 "gjs" = (
 /obj/structure/machinery/door/poddoor/almayer/locked{
 	name = "\improper Hangar Lockdown Blast Door"
@@ -18086,6 +18107,15 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/lower_cargo)
+"kPp" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_x = 1;
+	pixel_y = 1
+	},
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/uniform,
+/turf/open/floor/almayer/plate,
+/area/golden_arrow/lower_cargo)
 "kQO" = (
 /turf/closed/wall/almayer/outer,
 /area/golden_arrow/supplydrop)
@@ -18124,6 +18154,19 @@
 	},
 /turf/open/floor/almayer/cargo_arrow,
 /area/golden_arrow/hangar)
+"lev" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/machinery/light/small/red{
+	dir = 1
+	},
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/mask,
+/turf/open/floor/almayer,
+/area/golden_arrow/lower_cargo)
 "lff" = (
 /obj/structure/largecrate/supply/floodlights{
 	pixel_y = -9
@@ -18829,6 +18872,16 @@
 	},
 /turf/open/floor/almayer/edge/north,
 /area/golden_arrow/lower_cargo)
+"nbL" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/shoes,
+/turf/open/floor/almayer,
+/area/golden_arrow/lower_cargo)
 "nex" = (
 /obj/structure/blocker/invisible_wall/directional{
 	layer = 2
@@ -19161,6 +19214,7 @@
 /obj/structure/machinery/light/small/red{
 	dir = 8
 	},
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/suit,
 /turf/open/floor/plating/plating_catwalk,
 /area/golden_arrow/lower_cargo)
 "odN" = (
@@ -19368,6 +19422,17 @@
 	},
 /turf/open/floor/almayer,
 /area/golden_arrow/briefing)
+"oQw" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/machinery/light/small/red,
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/glasses,
+/turf/open/floor/almayer,
+/area/golden_arrow/lower_cargo)
 "oRK" = (
 /obj/structure/roof/cargocrane_tracks/cross{
 	pixel_y = 14
@@ -19821,6 +19886,14 @@
 	layer = 2.52
 	},
 /turf/open/floor/almayer/test_floor4,
+/area/golden_arrow/lower_cargo)
+"qqw" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1
+	},
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/accessory,
+/turf/open/floor/almayer/plate,
 /area/golden_arrow/lower_cargo)
 "qwH" = (
 /turf/open/floor/plating,
@@ -25738,9 +25811,9 @@ sBT
 aXB
 uPX
 uPX
-mKT
+kPp
 odf
-tDA
+qqw
 xTf
 uPX
 aXB
@@ -25913,13 +25986,13 @@ hKW
 lAv
 bWT
 aXB
-cTL
+nbL
 eqM
 ozf
 xxa
 bcc
 pWS
-cTL
+gjc
 aXB
 cTL
 eqM
@@ -26090,13 +26163,13 @@ pRD
 aAe
 efq
 aXB
-uZy
+lev
 arD
 avB
 mWO
 pRD
 aAe
-aBI
+oQw
 aXB
 aKb
 egO
@@ -26267,13 +26340,13 @@ bcc
 pWS
 wje
 aXB
-ago
+atu
 jKX
 lDX
 vCJ
 bcc
 pWS
-pFO
+euX
 aXB
 ago
 jKX
