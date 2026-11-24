@@ -2796,4 +2796,7 @@
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
 #include "maps\_basemap.dm"
+#include "modular_pve\code\datums\ammo\bullet\shotgun.dm"
+#include "modular_pve\code\modules\projectiles\ammo_boxes\handful_boxes.dm"
+#include "modular_pve\code\modules\projectiles\magazines\shotguns.dm"
 // END_INCLUDE
